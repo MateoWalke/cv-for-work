@@ -1,0 +1,250 @@
+/* fonts styles */
+@font-face {
+    font-family: 'Bungee';
+    src: url('../fonts/Bungee-Regular.woff2') format('woff2'),
+        url('../fonts/Bungee-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+/* WholeMailnBlock */
+.main{
+display: flex;
+flex-direction: row-reverse;
+width: 1280px;
+height: 1400px;
+margin: 0 auto;
+}
+/* Styles for main body */
+.main_block{
+    padding-top: 105px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* Styles of main content */
+.about{
+    margin-bottom: 40px;
+}
+
+.about-position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+
+.about-name{
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.aka{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.about-descriptions{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+    padding-left: 2px;
+    color: #595959;
+    width: 350px;;
+}
+/* Title */
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* Projects */
+.projects{
+    margin-bottom: 50px;
+}
+.project-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.project, 
+.project-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project-braket{
+    font-weight: 700;
+    color: #000000;
+}
+.projects-list{
+    padding: 0;
+    margin-left: 15px;
+}
+.project-link{
+    margin-left: 10px;
+}
+.braket{
+    color: #000000;
+}
+/* Jobs */
+/* .jobs{
+
+} */
+
+.company-title{
+    margin-bottom: 10px;
+
+}
+
+.company-orange-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.company-years{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.job-decription{
+    padding: 0;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+.education-school{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* education */
+.education{
+    margin-top: 40px;
+}
+/* Styles for side block */
+.side_block {
+    background-color: #1E2939;
+    padding:40px 0;
+    width: 370px;
+}
+.sidebar-title{
+    color:#ffffff;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.block_contact,
+.block_tech_skills,
+.block_soft_skills{
+    margin-left: 40px;
+}
+.block_contact{
+    margin-bottom: 50px;
+}
+.tel{
+    height: 35px;
+    width: 40px;
+    vertical-align:middle;
+    display:inline-block;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.post{
+    height: 35px;
+    width: 40px; 
+    vertical-align:middle;
+    display:inline-block;
+}
+.contact_links{
+    vertical-align:middle;
+    display:inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-left: 10px;
+    font-weight: 400;   
+    font-size: 14px;
+    line-height: 24px;
+    color: #6B727D;
+}
+.block_info{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.block_tech_skills{
+    margin-bottom: 45px;
+}
+
+/* MyPhoto */
+.my_photo{
+    width: 370px;
+    height: 370px;
+    margin-bottom: 50px;
+}
+
+.tech-skills-list,
+.soft-skills-list{
+color:#ffffff;
+padding: 0;
+margin-left: 25px;
+}
+.tech-skills-li{
+    color:#FB6D3A;
+}
+.tech-skills-span{
+color: #ffffff;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
